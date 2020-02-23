@@ -126,12 +126,11 @@ module.exports = {
         'afterBlockComment': false,
         'beforeLineComment': true,
         'afterLineComment': false,
-        'allowBlockStart': false,
-        'allowBlockEnd': true,
-        'allowObjectStart': false,
-        'allowObjectEnd': true,
-        'allowArrayStart': false,
-        'allowArrayEnd': true
+        'allowBlockStart': true,
+        'allowObjectStart': true,
+        'allowArrayStart': true,
+        "allowClassStart": true,
+        "ignorePattern": ["TODO", "<-"]
       }
     ],
     'space-before-function-paren': [
@@ -158,7 +157,8 @@ module.exports = {
           'NOTE',
           'REVIEW',
           'SECTION',
-          'INFO'
+          'INFO',
+          '<-'
         ]
       }
     ],
@@ -170,6 +170,6 @@ module.exports = {
         }
       }
     ],
-    'node/no-unsupported-features/es-syntax': 'off'
+    'node/no-unsupported-features/es-syntax': 'off',
   }
 }
