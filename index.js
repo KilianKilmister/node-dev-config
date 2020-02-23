@@ -1,5 +1,3 @@
-/* eslint-disable eslint-comments/disable-enable-pair */
-/* eslint-disable no-secrets/no-secrets */
 module.exports = {
   'extends': [
     'eslint:recommended',
