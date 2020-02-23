@@ -8,6 +8,7 @@ module.exports = {
   'env': {
     'node': true
   },
+  'parser': "babel-eslint",
   'root': true,
   'globals': {
     'Atomics': 'readonly',
@@ -17,7 +18,11 @@ module.exports = {
   },
   'parserOptions': {
     'ecmaVersion': 2020,
-    'sourceType': 'module'
+    'sourceType': 'module',
+    'allowImportExportEverywhere': true,
+    babelOptions: {
+      configFile: "node_modules/@slick_kilmister/eslint-config-node/.babelrc",
+    },
   },
   'plugins': [
     'markdown',
@@ -26,7 +31,8 @@ module.exports = {
     'import',
     'eslint-comments',
     'no-secrets',
-    'no-loops'
+    'no-loops',
+    'babel'
   ],
   'settings': {
     'json/sort-package-json': 'pro'
