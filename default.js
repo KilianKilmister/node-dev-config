@@ -130,7 +130,7 @@ module.exports = {
         'allowObjectStart': true,
         'allowArrayStart': true,
         "allowClassStart": true,
-        "ignorePattern": ["TODO", "<-"]
+        "ignorePattern": "<|"
       }
     ],
     'space-before-function-paren': [
