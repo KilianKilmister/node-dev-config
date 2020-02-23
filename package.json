@@ -19,7 +19,7 @@
   },
   "license": "MIT",
   "author": "Slick Kilmister <kilian@catsoft.ch>",
-  "main": "index.js",
+  "main": "default.js",
   "scripts": {
     "install-peers": "npm install eslint eslint-nibble eslint-plugin-eslint-comments eslint-plugin-import eslint-plugin-json eslint-plugin-json-format eslint-plugin-markdown eslint-plugin-no-loops eslint-plugin-no-secrets eslint-plugin-node",
     "test": "echo \"Error: no test specified\" && exit 1"
