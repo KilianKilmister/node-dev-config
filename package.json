@@ -1,6 +1,6 @@
 {
   "name": "@slick_kilmister/eslint-config-node",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "personal node.js dev-configuration",
   "keywords": [
     "slick",
@@ -39,6 +39,5 @@
   "devDependencies": {
     "eslint-import-resolver-node": "^0.3.3"
   },
-  "peerDependencies": {
-  }
+  "peerDependencies": {}
 }
