@@ -1,5 +1,5 @@
 {
-  "name": "@slick_kilmister/node-dev-config",
+  "name": "@slick_kilmister/eslint-config-node",
   "version": "1.0.0",
   "description": "personal node.js dev-configuration",
   "scripts": {
