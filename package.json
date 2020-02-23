@@ -25,6 +25,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+  },
+  "devDependencies": {
+    "eslint-import-resolver-node": "^0.3.3"
+  },
+  "peerDependencies": {
     "eslint": ">=6.8.0",
     "eslint-nibble": ">=5.1.0",
     "eslint-plugin-eslint-comments": ">=3.1.2",
@@ -35,9 +40,5 @@
     "eslint-plugin-no-loops": ">=0.3.0",
     "eslint-plugin-no-secrets": ">=0.3.4",
     "eslint-plugin-node": ">=11.0.0"
-  },
-  "devDependencies": {
-    "eslint-import-resolver-node": "^0.3.3"
-  },
-  "peerDependencies": {}
+  }
 }
