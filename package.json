@@ -1,0 +1,40 @@
+{
+  "name": "@slick_kilmister/node-dev-config",
+  "version": "1.0.0",
+  "description": "personal node.js dev-configuration",
+  "scripts": {
+    "fix-eslintrc": "eslint .eslintrc --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "eslint-nibble": "^5.1.0",
+    "eslint-plugin-eslint-comments": "^3.1.2",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-json": "^2.1.0",
+    "eslint-plugin-json-format": "^2.0.1",
+    "eslint-plugin-markdown": "^1.0.1",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-no-secrets": "^0.3.4",
+    "eslint-plugin-node": "^11.0.0"
+  },
+  "devDependencies": {},
+  "license": "MIT",
+  "author": "Slick Kilmister <kilian@catsoft.ch>",
+  "keywords": [
+    "slick",
+    "kilmister",
+    "dev",
+    "dependancy",
+    "config"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KilianKilmister/node-dev-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KilianKilmister/node-dev-config/issues"
+  },
+  "homepage": "https://github.com/KilianKilmister/node-dev-config#readme"
+}

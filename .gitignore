@@ -1,0 +1,7 @@
+const
+node_modules
+note
+target
+
+# Optional npm cache directory
+.npm
