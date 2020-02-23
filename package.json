@@ -1,6 +1,6 @@
 {
   "name": "@slick_kilmister/eslint-config-node",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "personal node.js dev-configuration",
   "keywords": [
     "slick",
@@ -24,8 +24,7 @@
     "install-peers": "npm install eslint eslint-nibble eslint-plugin-eslint-comments eslint-plugin-import eslint-plugin-json eslint-plugin-json-format eslint-plugin-markdown eslint-plugin-no-loops eslint-plugin-no-secrets eslint-plugin-node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint-import-resolver-node": "^0.3.3"
   },
