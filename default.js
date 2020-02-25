@@ -38,6 +38,9 @@ module.exports = {
     'json/sort-package-json': 'pro'
   },
   'rules': {
+
+    "indent": [ "error", 2 ],
+
     'space-in-parens': [
       'error',
       'always',
@@ -158,7 +161,7 @@ module.exports = {
           'REVIEW',
           'SECTION',
           'INFO',
-          '<-'
+          '<|'
         ]
       }
     ],
