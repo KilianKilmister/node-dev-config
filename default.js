@@ -8,7 +8,7 @@ module.exports = {
   'env': {
     'node': true
   },
-  'parser': "babel-eslint",
+  'parser': 'babel-eslint',
   'root': true,
   'globals': {
     'Atomics': 'readonly',
@@ -21,7 +21,7 @@ module.exports = {
     'sourceType': 'module',
     'allowImportExportEverywhere': true,
     babelOptions: {
-      configFile: "node_modules/@slick_kilmister/eslint-config-node/.babelrc",
+      configFile: 'node_modules/@slick_kilmister/eslint-config-node/.babelrc',
     },
   },
   'plugins': [
@@ -39,7 +39,7 @@ module.exports = {
   },
   'rules': {
 
-    "indent": [ "error", 2 ],
+    'indent': ['error', 2],
 
     'space-in-parens': [
       'error',
@@ -132,8 +132,8 @@ module.exports = {
         'allowBlockStart': true,
         'allowObjectStart': true,
         'allowArrayStart': true,
-        "allowClassStart": true,
-        "ignorePattern": "<|"
+        'allowClassStart': true,
+        'ignorePattern': '<|'
       }
     ],
     'space-before-function-paren': [
