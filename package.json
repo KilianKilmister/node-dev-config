@@ -31,31 +31,16 @@
     "eslint-nibble": ">=5.1.0",
     "eslint-plugin-eslint-comments": ">=3.1.2",
     "eslint-plugin-import": ">=2.20.1",
-    "eslint-plugin-json": ">=2.1.0",
+    "eslint-plugin-json": ">=2.1.1",
     "eslint-plugin-json-format": ">=2.0.1",
-    "eslint-plugin-markdown": ">=1.0.1",
+    "eslint-plugin-markdown": ">=1.0.2",
     "eslint-plugin-no-loops": ">=0.3.0",
-    "eslint-plugin-no-secrets": ">=0.3.4",
+    "eslint-plugin-no-secrets": ">=0.6.5",
     "eslint-plugin-node": ">=11.0.0",
     "eslint-plugin-babel": ">=5.3.0",
-    "@babel/core": ">=7.8.4",
-    "babel-eslint": ">=10.0.3",
-    "@babel/preset-env": ">=7.8.4"
+    "@babel/core": ">=7.9.0",
+    "babel-eslint": ">=10.1.0",
+    "@babel/preset-env": ">=7.9.0"
   },
-  "peerDependencies": {
-    "eslint": ">=6.8.0",
-    "eslint-nibble": ">=5.1.0",
-    "eslint-plugin-eslint-comments": ">=3.1.2",
-    "eslint-plugin-import": ">=2.20.1",
-    "eslint-plugin-json": ">=2.1.0",
-    "eslint-plugin-json-format": ">=2.0.1",
-    "eslint-plugin-markdown": ">=1.0.1",
-    "eslint-plugin-no-loops": ">=0.3.0",
-    "eslint-plugin-no-secrets": ">=0.3.4",
-    "eslint-plugin-node": ">=11.0.0",
-    "eslint-plugin-babel": ">=5.3.0",
-    "@babel/core": ">=7.8.4",
-    "babel-eslint": ">=10.0.3",
-    "@babel/preset-env": ">=7.8.4"
-  }
+  "peerDependencies": {}
 }
